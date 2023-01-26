@@ -1,0 +1,58 @@
+/* ------------ */
+/* RESET  */
+/* ------------ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ------------ */
+/* FONT  */
+/* ------------ */
+
+header{
+    height: 40px;
+    background-color: red;
+}
+
+
+main{
+    height: calc(100vh - 110px);
+    background-color: yellow;
+    overflow: auto;
+}
+
+footer{
+    height: 70px;
+    background-color: green;
+}
+
+.container-main{
+    padding: 5vh;
+}
+
+/* ------------ */
+/* COMMON  */
+/* ------------ */
+
+
+
+
+/* ------------ */
+/* HEADER  */
+/* ------------ */
+
+
+
+/* ------------ */
+/* MAIN  */
+/* ------------ */
+
+
+
+/* ------------ */
+/* FOOTER  */
+/* ------------ */
