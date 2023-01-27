@@ -136,7 +136,7 @@ footer{
 
 footer .buttons{
     border-radius: 7px;
-    padding: 5px 20px;
+    padding: 5px 25px;
     text-align: center;
     position: relative;
 }
@@ -155,7 +155,7 @@ footer .freccia {
 footer .menu-sinistra,
 footer .menu-centrale{
     display: flex;
-    gap: 10px;
+    gap: 6px;
 }
 
 footer i{
