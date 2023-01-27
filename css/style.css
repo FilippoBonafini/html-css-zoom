@@ -85,10 +85,15 @@ header li:hover{
 main{
     height: calc(100vh - 70px);
     background-color: rgb(0, 0, 0);
-    overflow: auto;
     padding-top: 40px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
 }
 
+main::-webkit-scrollbar {
+    display: none;
+}
 .container-main{
     padding-top: 20px;
     display: flex;
