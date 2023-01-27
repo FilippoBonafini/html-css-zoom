@@ -134,6 +134,12 @@ footer{
     padding: 0 13px;
 }
 
+
+
+footer .menu-destra,
+footer .menu-sinistra{
+    width: 20%;
+}
 footer .buttons{
     border-radius: 7px;
     padding: 5px 25px;
@@ -182,11 +188,18 @@ footer .freccia:hover{
 }
 
 footer .menu-destra{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .menu-destra a{
     padding: 7px 17px;
     background-color: rgb(189, 46, 46);
     border-radius: 10px;
+    
+    
 }
 
-footer .menu-destra:hover{
+footer .menu-destra a:hover{
     background-color: rgb(212, 31, 31);
 }
