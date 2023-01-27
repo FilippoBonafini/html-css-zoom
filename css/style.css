@@ -83,7 +83,7 @@ header li:hover{
 /* ------------ */
 
 main{
-    height: calc(100vh - 90px);
+    height: calc(100vh - 70px);
     background-color: rgb(0, 0, 0);
     overflow: auto;
     padding-top: 40px;
@@ -121,6 +121,67 @@ main{
 /* ------------ */
 
 footer{
-    height: 90px;
+    height: 70px;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13px;
+}
+
+footer .buttons{
+    border-radius: 7px;
+    padding: 5px 20px;
+    text-align: center;
+    position: relative;
+}
+
+footer .freccia {
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 6px;
+    margin: 2px ;
+    background-color: #222222;
+    z-index: 3;
+}
+
+footer .menu-sinistra,
+footer .menu-centrale{
+    display: flex;
+    gap: 10px;
+}
+
+footer i{
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: rgba(255, 255, 255, 0.684);
+
+}
+
+footer .fa-angle-up{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.684);
+}
+
+footer span{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.684);
+
+}
+
+footer .buttons:hover,
+footer .freccia:hover{
+    background-color: rgba(255, 255, 255, 0.19);
+}
+
+footer .menu-destra{
+    padding: 7px 17px;
+    background-color: rgb(189, 46, 46);
+    border-radius: 10px;
+}
+
+footer .menu-destra:hover{
+    background-color: rgb(212, 31, 31);
 }
